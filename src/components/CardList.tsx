@@ -27,7 +27,7 @@ export function CardList({ cards }: CardsProps): JSX.Element {
 
   return (
     <>
-      {/* TODO CARD GRID */}
+      <SimpleGrid columns={(1, 2, 3)} spacing="40px" />
 
       {/* TODO MODALVIEWIMAGE */}
     </>
