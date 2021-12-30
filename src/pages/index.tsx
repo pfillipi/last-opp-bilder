@@ -45,8 +45,6 @@ export default function Home(): JSX.Element {
     const formatted = data?.pages.flatMap(imageData => {
       return imageData.data.flat();
     });
-    console.log(formatted);
-    console.log(data?.pages);
     return formatted;
   }, [data]);
 
