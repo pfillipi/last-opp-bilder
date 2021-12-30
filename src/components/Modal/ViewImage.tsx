@@ -36,6 +36,11 @@ export function ModalViewImage({
             maxH={['350px', '450px', '600px']}
           />
         </ModalBody>
+        <ModalFooter bg="pGray.800" h="2rem" py="20px" borderBottomRadius="5px">
+          <Link href={imgUrl} isExternal fontSize="1rem" mr="auto">
+            Abrir original
+          </Link>
+        </ModalFooter>
       </ModalContent>
     </Modal>
   );
