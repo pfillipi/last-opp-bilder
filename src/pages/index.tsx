@@ -52,7 +52,7 @@ export default function Home(): JSX.Element {
     return <Loading />;
   }
 
-  if (isLoading && !isError) {
+  if (!isLoading && isError) {
     return <Error />;
   }
 
