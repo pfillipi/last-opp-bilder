@@ -1,3 +1,3 @@
 import axios from 'axios';
 
-export const api = axios.ccreate();
+export const api = axios.create();
